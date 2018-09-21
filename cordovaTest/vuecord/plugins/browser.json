@@ -1,0 +1,31 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    },
+    "cordova-plugin-mfp": {
+      "PACKAGE_NAME": "com.andrews.app"
+    },
+    "cordova-plugin-mfp-jsonstore": {
+      "PACKAGE_NAME": "com.andrews.app"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.andrews.app"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.andrews.app"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.andrews.app"
+    }
+  }
+}
